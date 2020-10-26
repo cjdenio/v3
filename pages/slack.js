@@ -20,6 +20,7 @@ import Footer from '../components/footer'
 import SlideUp from '../components/slide-up'
 import Header from '../components/slack/header'
 import SlackEvents from '../components/slack/slack-events'
+import CountToAMillion from '../components/slack/counttoamillion'
 
 const zoomSlide = keyframes({
   from: { backgroundPosition: '-32px bottom' },
@@ -224,9 +225,7 @@ export default () => (
         >
           <h3>#dogs</h3>
         </Card>
-        <Card bg="purple">
-          <h3>#support</h3>
-        </Card>
+        <CountToAMillion />
         <Card
           bg="red"
           sx={{
